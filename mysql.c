@@ -9,7 +9,7 @@ int main(){
     char sql[255];
     char *sql_server = "localhost";
     char *user = "root";
-    char *passwd = "Raise_1229";
+    char *passwd = "****;
     char *db_name = "test";
     memset(&sql[0], 0, sizeof(sql));
 
