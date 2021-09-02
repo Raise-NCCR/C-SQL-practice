@@ -20,7 +20,7 @@ int main(){
             exit(EXIT_FAILURE);
     }
 
-    /*snprintf(&sql[0], sizeof(sql) - 1, "insert into tb_test(id, name) values(2, 'madoka')");
+    /*snprintf(&sql[0], sizeof(sql) - 1, "insert into tb_test(id, name) values(2, 'hoge')");
     if (mysql_query(conn, &sql[0])){
         fprintf(stderr, "query error");
         mysql_close(conn);
